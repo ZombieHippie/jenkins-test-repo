@@ -48,7 +48,7 @@
      "webdriver:start": "npm run webdriver-manager start",
 
      "lint": "npm run tslint src/**/*.ts",
-     "lint-xml": "npm run tslint src/**/*.ts --format checkstyle --out reports/lint",
+     "lint-xml": "tslint src/**/*.ts --format checkstyle --out reports/lint.xml --force",
 
        "pree2e": "npm run webdriver:update -- --standalone",
      "e2e": "npm run protractor",
