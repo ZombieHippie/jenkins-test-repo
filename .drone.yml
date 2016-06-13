@@ -1,6 +1,7 @@
-image: node
-clone:
-  depth: 10
-script:
-  - npm install
-  - npm run ci
+build:
+  image: node
+  clone:
+    depth: 10
+  commands:
+    - npm install
+    - npm run ci
