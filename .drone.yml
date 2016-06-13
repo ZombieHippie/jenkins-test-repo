@@ -10,7 +10,13 @@ environment:
   - TERM=xterm-256color
 
 build:
-  image: node:6
-  commands:
-    - npm install --quiet --color --unsafe-perm
-    - npm test --quiet --color --unsafe-perm
+  test:
+    image: node:6
+    commands:
+      - npm install --quiet --color --unsafe-perm
+      - npm test --quiet --color
+  lint:
+    image: node:6
+    commands:
+      - npm install --quiet --color --unsafe-perm
+      - npm run lint --quiet --color
