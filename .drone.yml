@@ -4,6 +4,10 @@ cache:
   mount:
     - node_modules
     - .git
+environment:
+  - CLICOLOR_FORCE=1
+  - FORCE_COLOR=1
+
 build:
   image: node:6
   commands:
