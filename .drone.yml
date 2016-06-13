@@ -2,6 +2,9 @@ build:
   image: node:4
   clone:
     depth: 10
+  cache:
+    - node_modules
+    - .git
   commands:
     - npm install
     - npm run ci
