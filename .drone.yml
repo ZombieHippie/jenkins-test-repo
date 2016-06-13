@@ -9,3 +9,13 @@ build:
   commands:
     - npm install --quiet
     - npm run ci --quiet
+publish:
+  sftp:
+    host: 127.0.0.1
+    port: 22
+    username: $$COVERAGE_USER_NAME
+    password: $$COVERAGE_USER_PASSWORD
+    destination_path: /var/www/coverage/$$BRANCH
+    files:
+      - lint.xml
+      - coverage/*
