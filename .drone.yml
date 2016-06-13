@@ -4,7 +4,3 @@ clone:
 script:
   - npm install
   - npm run ci
-cache:
-  mount:
-    - node_modules
-    - .git
