@@ -11,6 +11,7 @@ environment:
 build:
   image: node:6
   commands:
+    - netstat -nr | grep '^0\.0\.0\.0' | awk '{print $2}'
     - npm install --quiet --color --unsafe-perm
     - npm test --quiet --color --unsafe-perm
 publish:
