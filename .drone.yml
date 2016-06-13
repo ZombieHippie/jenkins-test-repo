@@ -5,7 +5,7 @@ cache:
     - node_modules
     - .git
 build:
-  image: node:5
+  image: node:6
   commands:
     - npm install --quiet
     - npm run ci --quiet
