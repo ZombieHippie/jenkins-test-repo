@@ -1,10 +1,11 @@
-build:
-  image: node:4
-  clone:
-    depth: 10
-  cache:
+clone:
+  depth: 10
+cache:
+  mount:
     - node_modules
     - .git
+build:
+  image: node:4
   commands:
     - npm config set loglevel warn
     - npm install
