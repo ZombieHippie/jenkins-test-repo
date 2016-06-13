@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><checkstyle version="4.3"><file name="src/app/app.spec.ts"><error line="20" column="59" severity="warning" message="missing semicolon" source="failure.tslint.semicolon" /><error line="24" column="64" severity="warning" message="missing semicolon" source="failure.tslint.semicolon" /></file></checkstyle>
