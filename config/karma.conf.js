@@ -37,7 +37,7 @@ module.exports = function(config) {
     webpack: testWebpackConfig,
 
     coverageReporter: {
-      dir : 'reports/coverage/',
+      dir : 'coverage/',
       reporters: [
         { type: 'text-summary' },
         { type: 'json' },
