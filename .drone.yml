@@ -7,8 +7,8 @@ cache:
 build:
   image: node:6
   commands:
-    - npm install --quiet --colors
-    - npm test --quiet --colors
+    - npm install --quiet --color --unsafe-perm
+    - npm test --quiet --color --unsafe-perm
 publish:
   sftp:
     host: 127.0.0.1
