@@ -29,7 +29,6 @@ const METADATA = {
  * See: http://webpack.github.io/docs/configuration.html#cli
  */
 module.exports = {
-
   /*
    * Static metadata for index.html
    *
