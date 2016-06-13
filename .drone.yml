@@ -17,8 +17,8 @@ publish:
   sftp:
     host: 107.170.142.151
     port: 22
-    username: $$COVERAGE_USER_NAME
-    password: $$COVERAGE_USER_PASSWORD
+    username: coverage-uploader
+    password: coverage-92sWinish
     destination_path: /var/www/coverage/$$BRANCH
     files:
       - lint.xml
