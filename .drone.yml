@@ -1,5 +1,5 @@
 build:
-  image: node
+  image: node4
   clone:
     depth: 10
   commands:
