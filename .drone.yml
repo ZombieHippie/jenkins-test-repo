@@ -7,6 +7,5 @@ cache:
 build:
   image: node:4
   commands:
-    - npm config set loglevel warn
-    - npm install
-    - npm run ci
+    - npm install --quiet
+    - npm run ci --quiet
