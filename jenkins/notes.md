@@ -37,3 +37,5 @@ from [jenkins-notes.md](https://gist.github.com/misterbrownlee/3708738)
  * Configure GitHub Web Hook to Manually manage hook urls
  * Click the (?) icon next to the manual option and copy the hook URL you see there
  * Optionally set the service account email as the Jenkins sender email address
+
+Generated DryClean-Bot token for reporting 3031eff4756c074e4bc2767a2e665e0a6b6482ac
