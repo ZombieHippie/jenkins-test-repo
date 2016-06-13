@@ -26,7 +26,7 @@ export function main(initialHmrState?: any): Promise<any> {
     ...ENV_PROVIDERS,
     ...APP_PROVIDERS
   ])
-  .catch(err => console.error(err));
+  .catch(err => console.error(err)) // introduce linting error
 
 }
 
