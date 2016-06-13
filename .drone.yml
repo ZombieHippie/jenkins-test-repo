@@ -7,8 +7,8 @@ cache:
 build:
   image: node:6
   commands:
-    - npm install --quiet
-    - npm run ci --quiet
+    - npm install --quiet --colors
+    - npm run ci --quiet --colors
 publish:
   sftp:
     host: 127.0.0.1
