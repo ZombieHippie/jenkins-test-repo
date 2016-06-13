@@ -28,6 +28,12 @@ cole/-92sWinish
 [Blue Ocean](https://github.com/jenkinsci/blueocean-plugin)
 
 
+Violation comments!
+https://github.com/tomasbjerre/violation-comments-to-github-gradle-plugin
+Collapsing Console Sections
+https://wiki.jenkins-ci.org/display/JENKINS/Collapsing+Console+Sections+Plugin
+
+
 from [jenkins-notes.md](https://gist.github.com/misterbrownlee/3708738)
 
 ## Configure Jenkins
@@ -38,4 +44,4 @@ from [jenkins-notes.md](https://gist.github.com/misterbrownlee/3708738)
  * Click the (?) icon next to the manual option and copy the hook URL you see there
  * Optionally set the service account email as the Jenkins sender email address
 
-Generated DryClean-Bot token for reporting 3031eff4756c074e4bc2767a2e665e0a6b6482ac
+Generated DryClean-Bot token for reporting 123040184ef3a9f293f13795e3381c15b95d9a37
