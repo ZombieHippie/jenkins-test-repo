@@ -37,11 +37,12 @@ module.exports = function(config) {
     webpack: testWebpackConfig,
 
     coverageReporter: {
-      dir : 'coverage/',
+      dir : 'reports/coverage/',
       reporters: [
         { type: 'text-summary' },
         { type: 'json' },
-        { type: 'html' }
+        { type: 'html' },
+        { type: 'cobertura', file: 'cobertura-coverage.xml' } // for jenkins
       ]
     },
 
