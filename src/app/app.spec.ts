@@ -18,10 +18,5 @@ describe('App', () => {
 
   it('should have a url', inject([ App ], (app) => {
     expect(app.url).toEqual('https://twitter.com/Angular') // should fail
-  }));
-
-  it('should have a url', inject([ App ], (app) => {
-    expect(app.url).toEqual('https://twitter.com/AngularClass') // should succeed
-  }));
-
+  })) // introduce linting error
 });
